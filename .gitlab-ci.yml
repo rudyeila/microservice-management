@@ -1,0 +1,19 @@
+include:
+  - project: cm-tm/cm-team/pipelineartifacts/pipeline
+    ref: "1"
+    file : base.yaml
+  - project: cm-tm/cm-team/pipelineartifacts/pipeline
+    ref: "1"
+    file : image.yaml
+  - project: cm-tm/cm-team/pipelineartifacts/pipeline
+    ref: "master"
+    file : chart.yaml
+  - project: cm-tm/cm-team/pipelineartifacts/pipeline
+    ref: "1"
+    file : deploy.yaml
+  - project: cm-tm/cm-team/pipelineartifacts/pipeline
+    ref: "1"
+    file : maven.yaml
+  - project: cm-tm/cm-team/pipelineartifacts/pipeline
+    ref: "1"
+    file : register.yaml
