@@ -1,3 +1,5 @@
+Disclaimer: Not everything in this repository was done by me, but I had a large contribution to it. On the API level, I wrote the Microservice API. Furthermore, I contributed with everything related to Prometheus, Kubernetes, and health of the microservicess 
+
 # MicroserviceManagement Application Microservice
 
 MicroserviceManagement gets the CompileTimeData from the [RegisterStep](https://git.scc.kit.edu/cm-tm/cm-team/2-4.serviceenvironment/developerportal/pipelinestep/1.pipelinestep) including a GitLab repository access token.
